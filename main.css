@@ -1,0 +1,177 @@
+body {
+    background-image: url("./img/2.jpg");
+    background-color: #e5e5e5;  
+    font-family: 'Montserrat', sans-serif;
+}
+
+#main {
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 167px 444px;
+}
+
+#card {
+    height: 586px;
+    width: 1032px;
+    border-radius: 16px;
+    box-shadow: 10px 10px 8px #888888;
+    margin: auto;
+    margin: auto;
+}
+
+#rect1 {
+    height: 50%;
+    background-image: url("./img/1.jpg");
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+#rect2 {
+    height: 50%;
+    background-color: #FFFFFF;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px; 
+    display: flex;
+}
+
+#details1 {
+    height: 169px;
+    width: 264px;
+    position: relative;
+    top: -265px;
+    left: 555px;  
+    text-align: center;
+    color: #ffffff;
+}
+
+
+a.sociallink {
+    color: #ffffff;
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    border: solid 1px #fff;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+}
+a
+.sociallink:hover {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.175);
+    text-decoration: none;
+}
+
+#pic {
+    position: relative;
+    left: 25px;
+    top: 25px;
+    border: 5px solid #ddd;
+    width: 300px;
+    height: 300px;
+    align-items: center;
+    align-content: center;
+}
+
+h1  {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 20px;
+    font-size: 50px;
+}
+
+p {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    font-size: 24px;
+}
+
+#aboutme h1 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 20px;
+    font-size: 50px;
+    margin-top: 70px;
+    margin-left: 32px;
+}
+
+#aboutme p {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    font-size: 20px;
+    text-align: justify;
+    width: 600px;
+    margin-left: 32px; 
+}
+
+#button {
+    position: relative;
+    right: 780px;
+    top: 230px;
+    height: 40px;
+    width: 176px;
+    border-radius: 4px;
+    border: 1px solid #E04B54;
+    text-align: center;
+    padding:10px;
+    box-sizing: border-box;
+    font-size: 14px;
+    color: #E04B54;
+    font-weight: 700;
+}
+
+#button:hover {
+    color: #ffffff;
+    background-color: #E04B54;
+    cursor: pointer;
+}
+
+.nav {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.fb {
+    margin: 0px 10px;
+}
+
+.tw {
+    margin: 0px 10px;
+}
+
+.linkedin {
+    margin: 0px 10px;
+}
+
+.yt {
+    margin: 0px 10px;
+}
+
+
+#detailsquestions {
+    position: relative;
+    left: 100px;
+    top: 70px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+#detailsanswers  {
+    position: relative;
+    left: 100px;
+    top: 70px;
+    margin-left: 20px;
+    font-size: 20px;
+    line-height: 40px;
+}
+
