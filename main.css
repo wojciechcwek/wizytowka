@@ -1,177 +1,163 @@
 body {
-    background-image: url("./img/2.jpg");
+    background-image: url("./img/2.jpg") ;
     background-color: #e5e5e5;  
     font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
 }
 
-#main {
+.container {
     padding: 167px 444px;
 }
 
-#card {
+.card {
+    position: relative;
     height: 586px;
     width: 1032px;
     border-radius: 16px;
-    box-shadow: 10px 10px 8px #888888;
+    box-shadow: 
+    10px 10px 8px #888888,
+    -10px 10px 8px #888888,
+    -10px -10px 8px #888888,
+    10px -10px 8px #888888;
     margin-left: auto;
     margin-right: auto;
 }
 
-#rect1 {
+.pic {
+    background: url("./img/3.jpg") no-repeat 0px 0px;
+    border: 5px solid #ddd;
+    width: 280px;
+    height: 280px;
+    position: absolute;
+    left: 40px;
+    top: 40px;
+}
+
+.upperrectangle {
     height: 50%;
-    background-image: url("./img/1.jpg");
+    background: url("./img/1.jpg");
     border-top-left-radius: 16px;
     border-top-right-radius: 16px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
-#rect2 {
-    height: 50%;
-    background-color: #FFFFFF;
-    border-bottom-left-radius: 16px;
-    border-bottom-right-radius: 16px; 
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-#details1 {
-    height: 169px;
-    width: 264px;
-    position: relative;
-    top: -265px;
-    left: 555px;  
+.details {
+    position: absolute;
+    top: 82px;
+    left: 552px;
+    width: 260px;
+    color: #ffffff;
     text-align: center;
-    color: #ffffff;
+    line-height: 0px;
 }
 
+.details > h1 {
+    font-size: 50px;
+    font-weight: 900;
+}
 
-a.sociallink {
-    color: #ffffff;
-    display: block;
+.details > p {
+    font-family: Raleway;
+    line-height: 42px;
+    margin-bottom: 0px;
+}
+
+.nav {
+    margin-top: 28px;
+}
+
+.nav-item {
+    margin: 0 4px;
+    display: inline-block;
     width: 50px;
     height: 50px;
     border-radius: 100%;
     border: solid 1px #fff;
     transition: all 0.3s ease-in-out;
-    text-decoration: none;
 }
-a
-.sociallink:hover {
+
+.nav-item:hover {
     cursor: pointer;
     background-color: rgba(255, 255, 255, 0.175);
     text-decoration: none;
 }
+ 
+a:visited {
+    text-decoration: none;
+    color: white;
+}
 
-#pic {
+.bottomrectangle {
+    height: 50%;
+    background-color: #FFFFFF;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+}
+
+.aboutme{
+    padding-top: 50px;
+    padding-left: 40px;
+    width: 60%;
     position: relative;
-    left: 25px;
-    top: 25px;
-    border: 5px solid #ddd;
-    width: 300px;
-    height: 300px;
-    align-items: center;
-    align-content: center;
 }
 
-h1  {
+.aboutme > h1 {
+    margin: 0px;
     font-family: Montserrat;
-    font-style: normal;
-    font-weight: bold;
+    font-weight: 900;
     line-height: 20px;
-    font-size: 50px;
+    font-size: 30px;
 }
 
-p {
+.aboutme > p {
     font-family: Raleway;
-    font-style: normal;
     font-weight: 500;
-    line-height: normal;
-    font-size: 24px;
-}
-
-#aboutme h1 {
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: bold;
-    line-height: 20px;
-    font-size: 50px;
-    margin-top: 70px;
-    margin-left: 32px;
-}
-
-#aboutme p {
-    font-family: Raleway;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    font-size: 20px;
     text-align: justify;
-    width: 600px;
-    margin-left: 32px; 
 }
 
-#button {
+.personaldetails {
+    position: absolute;
+    left: 740px;
+    bottom: 100px;
+    width: 300px;
+}
+
+.detailsq {
+    font-weight: 700;
+    font-size: 16px;
+    float: left;
+    margin-right: 14px;
+}
+
+.detailsa {
+    font-size: 16px;
+    float: left;
+    margin-left: 14px
+}
+
+.text {
+    line-height: 28px;
+}
+
+a.link {
+    height: 20px;
+    width: 180px;
     position: relative;
-    right: 780px;
-    top: 230px;
-    height: 40px;
-    width: 176px;
+    font-size: 16px;
     border-radius: 4px;
     border: 1px solid #E04B54;
     text-align: center;
-    padding:10px;
-    box-sizing: border-box;
-    font-size: 14px;
+    padding: 10px;
+    left: 40px;
+    bottom: -10px;
     color: #E04B54;
-    font-weight: 700;
+    font-weight: 600;
 }
 
-#button:hover {
+a.link:hover {
     color: #ffffff;
     background-color: #E04B54;
     cursor: pointer;
 }
 
-.nav {
-    margin-top: 30px;
-    display: flex;
-    justify-content: center;
-}
 
-.fb {
-    margin: 0px 10px;
-}
-
-.tw {
-    margin: 0px 10px;
-}
-
-.linkedin {
-    margin: 0px 10px;
-}
-
-.yt {
-    margin: 0px 10px;
-}
-
-
-#detailsquestions {
-    position: relative;
-    left: 100px;
-    top: 70px;
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 40px;
-}
-
-#detailsanswers  {
-    position: relative;
-    left: 100px;
-    top: 70px;
-    margin-left: 20px;
-    font-size: 20px;
-    line-height: 40px;
-}
 

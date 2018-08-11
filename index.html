@@ -3,79 +3,81 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <title>Wizytówka - Wojciech Cwek</title>
 
     <meta name="description" content="Moja Wizytówka">
     <meta name="keywords" content="wizytowka, firma, pieniadze">
     <meta name="author" content="Wojciech Cwek">
 
-    <link rel="stylesheet" href="./main.css" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Raleway:400,700" rel="stylesheet">
+
     <link rel="stylesheet" href="./css/fontello.css" type="text/css" />
+    <link rel="stylesheet" href="./main.css" type="text/css" />
+
 
 </head>
 
 <body>
-    <div id="main">
-        <div id="card">
-            <div id="rect1">
-                <div id="pic">
-                    <img src="./img/3.jpg" />
-                </div>
-                <div id="details1">
-                    <h1>Jane Dof</h1>
+    <div class="container">
+        <div class="card">
+            <div class="pic"></div>
+            <div class="upperrectangle">
+                <div class="details">
+                    <h1>Jane Doe</h1>
                     <p>Frontend-developer</p>
-                    <div class="nav">
-                        <div class="fb">
-                            <a href="http://facebook.com" target="_blank" class="sociallink">
+                    <div class="nav"> 
+                        <div class="nav-item">
+                            <a href="http://facebook.com" target="_blank" >
                                 <i class="icon-facebook"></i>
                             </a>
                         </div>
-                        <div class="tw">
-                            <a href="http://twitter.com" target="_blank" class="sociallink">
+                        <div class="nav-item">
+                            <a href="http://twitter.com" target="_blank" >
                                 <i class="icon-twitter"></i>
                             </a>
                         </div>
-                        <div class="linkedin">
-                            <a href="http://linkedin.com" target="_blank" class="sociallink">
+                        <div class="nav-item">
+                            <a href="http://linkedin.com" target="_blank" >
                                 <i class="icon-linkedin"></i>
                             </a>
                         </div>
-                        <div class="yt">
-                            <a href="http://youtube.com" target="_blank" class="sociallink">
+                        <div class="nav-item">
+                            <a href="http://youtube.com" target="_blank" >
                                 <i class="icon-youtube"></i>
                             </a>
                         </div>
                     </div>
                 </div>
             </div>
-            <div id="rect2">
-                <div id="aboutme">
-                    <h1>About <span style="color:#E04B54">Me</span></h1>
+            <div class="bottomrectangle">
+                <div class="aboutme">
+                    <h1>About
+                        <span style="color:#E04B54">Me</span>
+                    </h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus at porttitor ex. Vestibulum augue elit, blandit id
                         tempus suscipit, aliquet vitae augue. Pellentesque sagittis metus id libero consequat, quis venenatis lacus feugiat.</p>
                 </div>
-                <div id="detailsquestions">
-                    Age  <br />
-                    E - mail  <br />
-                    Phone  <br />
-                    Country  
+                <div class="personaldetails">
+                    <div class="detailsq">
+                        <div class="text">Age</div>
+                        <div class="text">E - mail</div>
+                        <div class="text">Phone</div>
+                        <div class="text">Country</div>
+                    </div>
+                    <div class="detailsa">
+                        <div class="text">23</div>
+                        <div class="text">xxx@xxx.com</div>
+                        <div class="text">4132123123</div>
+                        <div class="text">Poland</div>
+                    </div>
                 </div>
-                <div id="detailsanswers">
-                    23 <br />
-                    xxx@xxx.com <br />
-                    4132123123 <br />
-                    Poland 
+                <div >
+                    <a href="http://google.com" target="_blank" class="link">Download Resume</a>
                 </div>
-             
-                <div id="button">Download Resume</div>
             </div>
         </div>
     </div>
-
-
 </body>
 
 </html>
